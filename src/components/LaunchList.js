@@ -1,7 +1,8 @@
 import React from 'react'
 import { connect } from 'react-redux'
 import { fetchLaunches } from '../actions'
-import "./LaunchList.css"
+
+import "./LaunchList.scss"
 
 class LaunchList extends React.Component {
 
@@ -24,11 +25,17 @@ class LaunchList extends React.Component {
   renderList() {
     return this.props.launches.map(launch => {
       return (
-        <div className="item" key={launch.flight_number}>
-          <h1 className="flight-number">#{launch.flight_number} </h1>
-          <h2 className="mission-name">{launch.mission_name}</h2>
-          <p className="launch-date">{this.dateHelper(launch.launch_date_unix)} </p>
-          <p className="rocket-name">{launch.rocket.rocket_name}</p>
+        <div className="list-item" key={launch.flight_number}>
+          <div className="left-data">
+            <h1 className="flight-number">#{launch.flight_number} </h1>
+          </div>
+          <div className="centre-data">
+            <h2 className="mission-name">{launch.mission_name}</h2>
+          </div>
+          <div className="right-data">
+            <p className="launch-date">{this.dateHelper(launch.launch_date_unix)} </p>
+            <p className="rocket-name">{launch.rocket.rocket_name}</p>
+          </div>
         </div>
       )
     })
