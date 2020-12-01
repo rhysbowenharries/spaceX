@@ -1,4 +1,6 @@
 @import "../styles/font-faces";
+@import "../styles/buttonContent";
+
 
 .logo{
   width: 160px;
@@ -8,14 +10,30 @@
 
 .logo-container{
   display: flex;
+  height: 56px;
+  padding: 5px 0px;
+  margin-left: 19px;
 }
 
 .logo-text{
   position: absolute;
-  left: 144px;
+  left: 160px;
   margin: 2px 0px;
   font-family: $font-family;
   color:  #909090;
   font-size: 17px;
   font-weight: 500;
 }
+
+.reload-button{
+  position: absolute;
+  right: 0px;
+  width: 142px;
+  height: 42px;
+  border-radius: 22px 0px 0px 22px;
+  color: WHITE;
+  background-color: $primary-blue;
+  text-align: center
+}
+
+
