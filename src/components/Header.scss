@@ -1,0 +1,21 @@
+@import "../styles/font-faces";
+
+.logo{
+  width: 160px;
+  height: 20px;
+  float: left
+}
+
+.logo-container{
+  display: flex;
+}
+
+.logo-text{
+  position: absolute;
+  left: 144px;
+  margin: 2px 0px;
+  font-family: $font-family;
+  color:  #909090;
+  font-size: 17px;
+  font-weight: 500;
+}
