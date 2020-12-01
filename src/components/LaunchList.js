@@ -34,10 +34,10 @@ class LaunchList extends React.Component {
       return (
         <div className="list-item" key={launch.flight_number}>
           <div className="left-data">
-            <h1 className="flight-number">#{launch.flight_number} </h1>
+            <p className="flight-number">#{launch.flight_number} </p>
           </div>
           <div className="centre-data">
-            <h2 className="mission-name">{launch.mission_name}</h2>
+            <p className="mission-name">{launch.mission_name}</p>
           </div>
           <div className="right-data">
             <p className="launch-date">{this.dateHelper(launch.launch_date_unix)} </p>

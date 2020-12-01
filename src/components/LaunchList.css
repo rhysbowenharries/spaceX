@@ -1,8 +1,21 @@
+.left-data {
+  margin: 6px;
+}
+
 .right-data {
   position: absolute;
   right: 21px;
   text-align: end;
   margin: 2px;
+}
+
+.flight-number {
+  font-family: "Brandon Grotesque", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  padding: 0px 5px 0px 5px;
+  margin: 3px;
 }
 
 .list-item {

@@ -3,11 +3,24 @@ $font-color: #909090;
 $font-family: 'Brandon Grotesque', Arial, Helvetica, sans-serif;
 $box-color:  #C9C9C9;
 
+.left-data{
+  margin: 6px;
+}
+
 .right-data{
   position: absolute;
   right: 21px;
   text-align: end;
   margin: 2px;
+}
+
+.flight-number{
+  font-family: $font-family;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  padding: 0px 5px 0px 5px;
+  margin: 3px;
 }
 .list-item{
   display: flex;
