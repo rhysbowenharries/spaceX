@@ -1,5 +1,6 @@
 .left-data {
   margin: 6px;
+  padding: 2px;
 }
 
 .right-data {
@@ -12,10 +13,22 @@
 .flight-number {
   font-family: "Brandon Grotesque", Arial, Helvetica, sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 500;
   font-size: 30px;
-  padding: 0px 5px 0px 5px;
+  padding: 0px 7px;
   margin: 3px;
+  color: #545454;
+}
+
+.mission-name {
+  font-family: "Brandon Grotesque", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  position: absolute;
+  left: 98px;
+  padding: 15px 2px;
+  margin: 2px;
+  color: #545454;
 }
 
 .list-item {
@@ -31,15 +44,17 @@
 .launch-date {
   font-family: "Brandon Grotesque", Arial, Helvetica, sans-serif;
   color: #909090;
-  font-weight: 500;
+  font-size: 11px;
+  font-weight: 600;
   margin: 6px 1px 1px 1px;
 }
 
 .rocket-name {
   font-family: "Brandon Grotesque", Arial, Helvetica, sans-serif;
-  font-weight: bold;
+  font-weight: 400;
   font-weight: 900;
   margin: 6px 1px 1px 1px;
+  color: #545454;
 }
 
 @font-face {

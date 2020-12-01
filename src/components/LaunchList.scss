@@ -1,10 +1,11 @@
 $primary-blue: #215184;
-$font-color: #909090;
+$font-color: #545454;
 $font-family: 'Brandon Grotesque', Arial, Helvetica, sans-serif;
 $box-color:  #C9C9C9;
 
 .left-data{
   margin: 6px;
+  padding: 2px;
 }
 
 .right-data{
@@ -17,11 +18,24 @@ $box-color:  #C9C9C9;
 .flight-number{
   font-family: $font-family;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 500;
   font-size: 30px;
-  padding: 0px 5px 0px 5px;
+  padding: 0px 7px;
   margin: 3px;
+  color: $font-color;
 }
+
+.mission-name{
+  font-family: $font-family;
+  font-style: normal;
+  font-weight: 500;
+  position: absolute;
+  left: 98px;
+  padding: 15px 2px;
+  margin: 2px;
+  color: $font-color;
+}
+
 .list-item{
   display: flex;
   border-radius: 9px;
@@ -31,15 +45,17 @@ $box-color:  #C9C9C9;
 
 .launch-date{
   font-family: $font-family;
-  color: $font-color;
-  font-weight: 500;
+  color:  #909090;
+  font-size: 11px;
+  font-weight: 600;
   margin: 6px 1px 1px 1px;
 }
 .rocket-name{
   font-family: $font-family;
-  font-weight: bold;
+  font-weight: 400;
   font-weight: 900;
   margin: 6px 1px 1px 1px;
+  color: $font-color;
 }
   @font-face {
     font-family: 'Brandon Grotesque';
