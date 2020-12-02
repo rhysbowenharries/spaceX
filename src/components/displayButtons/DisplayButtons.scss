@@ -1,0 +1,27 @@
+@import "../../styles/font-faces";
+@import "../../styles/buttonContent";
+
+.display-buttons{
+  position: absolute;
+  right: 30px;
+}
+.filter-button{
+  width: 142px;
+  height: 42px;
+  color: WHITE;
+  background-color: $primary-blue;
+  text-align: center;
+  margin-right: 8px
+}
+.sort-button{
+  width: 142px;
+  height: 42px;
+  color: WHITE;
+  background-color: $primary-blue;
+  text-align: center;
+  margin-right: 13px
+}
+
+#arrow-icon{
+  padding-top: 14px;
+}

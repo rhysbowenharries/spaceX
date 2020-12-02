@@ -33,53 +33,67 @@
   font-style: normal;
 }
 
-.icon {
-  padding: 6px 0px;
-  margin-right: 11px;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  float: right;
+.list {
+  padding: 47px 0px;
 }
 
-.button-content {
-  display: inline-block;
-  margin: 7px 0px;
+.left-data {
+  margin: 6px;
+  padding: 2px;
 }
 
-.logo {
-  width: 160px;
-  height: 20px;
-  float: left;
+.right-data {
+  position: absolute;
+  right: 50px;
+  text-align: end;
+  margin: 2px;
+  padding: 2px;
 }
 
-.logo-container {
+.flight-number {
+  font-family: "Brandon Grotesque", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  padding: 0px 7px;
+  margin: 3px;
+  color: #545454;
+}
+
+.mission-name {
+  font-family: "Brandon Grotesque", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  position: relative;
+  left: 30px;
+  padding: 15px 2px;
+  margin: 2px;
+  color: #545454;
+}
+
+.list-item {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 56px;
-  padding: 5px 0px;
-  margin-left: 19px;
+  border-radius: 9px;
+  -webkit-box-shadow: 0px 2px 3px 1px #C7C7C7;
+          box-shadow: 0px 2px 3px 1px #C7C7C7;
+  margin: 6px 36px;
 }
 
-.logo-text {
-  position: absolute;
-  left: 160px;
-  margin: 2px 0px;
+.launch-date {
   font-family: "Brandon Grotesque", Arial, Helvetica, sans-serif;
   color: #909090;
-  font-size: 17px;
-  font-weight: 500;
+  font-size: 11px;
+  font-weight: 600;
+  margin: 6px 1px 1px 1px;
 }
 
-.reload-button {
-  position: absolute;
-  right: 0px;
-  width: 142px;
-  height: 42px;
-  border-radius: 22px 0px 0px 22px;
-  color: WHITE;
-  background-color: #215184;
-  text-align: center;
+.rocket-name {
+  font-family: "Brandon Grotesque", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-weight: 900;
+  margin: 6px 1px 1px 1px;
+  color: #545454;
 }
-/*# sourceMappingURL=Header.css.map */
+/*# sourceMappingURL=LaunchList.css.map */

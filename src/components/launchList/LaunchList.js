@@ -1,6 +1,6 @@
 import React from 'react'
 import { connect } from 'react-redux'
-import { fetchLaunches } from '../actions'
+import { fetchLaunches } from '../../actions'
 
 import "./LaunchList.scss"
 

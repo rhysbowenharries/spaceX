@@ -1,4 +1,8 @@
-@import "../styles/font-faces";
+@import "../../styles/font-faces";
+
+.list{
+  padding: 47px 0px;
+}
 
 .left-data{
   margin: 6px;
@@ -7,7 +11,7 @@
 
 .right-data{
   position: absolute;
-  right: 21px;
+  right: 50px;
   text-align: end;
   margin: 2px;
   padding: 2px;
@@ -27,8 +31,8 @@
   font-family: $font-family;
   font-style: normal;
   font-weight: 500;
-  position: absolute;
-  left: 98px;
+  position: relative;
+  left: 30px;
   padding: 15px 2px;
   margin: 2px;
   color: $font-color;
@@ -38,7 +42,7 @@
   display: flex;
   border-radius: 9px;
   box-shadow: 0px 2px 3px 1px #C7C7C7;
-  margin: 6px;
+  margin: 6px 36px;
 }
 
 .launch-date{

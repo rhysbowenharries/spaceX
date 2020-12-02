@@ -1,5 +1,7 @@
+@import "./font-faces";
+
 .icon{
-  padding: 6px 0px;
+  padding: 10px 0px;
   margin-right: 11px;
   justify-content: center;
   float: right;
@@ -7,5 +9,8 @@
 
 .button-content{
   display: inline-block;
-  margin: 7px 0px;
+  margin: 9px 0px;
+  font-family: $font-family;
+  font-style: normal;
+  font-weight: 500;
 }
