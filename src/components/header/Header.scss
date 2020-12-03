@@ -3,26 +3,28 @@
 
 
 .logo{
-  width: 160px;
-  height: 20px;
-  float: left
+
+  width: 177px;
+  height: 23px;
+  float: left;
+  margin-left: 10px;
 }
 
 .logo-container{
   display: flex;
   height: 56px;
   padding: 5px 0px;
-  margin-left: 19px;
+  margin-left: 27px;
+  margin-bottom: 47px
 }
 
 .logo-text{
   position: absolute;
-  left: 160px;
-  margin: 2px 0px;
+  left: 200px;
   font-family: $font-family;
   color:  #909090;
-  font-size: 17px;
-  font-weight: 500;
+  font-size: 21px;
+  font-weight: 100;
 }
 
 .reload-button{

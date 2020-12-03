@@ -1,7 +1,7 @@
 import spaceXData from '../apis/spaceXData'
 
 export const fetchLaunches = () => async dispatch => {
-  const response = await spaceXData.get("/launches?limit=20");
+  const response = await spaceXData.get("/launches");
 
   dispatch({ type: "FETCH_LAUNCHES", payload: response.data });
 };
