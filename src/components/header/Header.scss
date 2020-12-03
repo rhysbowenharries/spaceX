@@ -33,7 +33,10 @@
   border-radius: 22px 0px 0px 22px;
   color: WHITE;
   background-color: $primary-blue;
-  text-align: center
+  text-align: center;
+  border: none
 }
-
+.reload-button:focus{
+  display: none;
+}
 

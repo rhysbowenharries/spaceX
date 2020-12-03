@@ -82,21 +82,12 @@
   margin: 9px 0px;
   font-family: "Brandon Grotesque", Arial, Helvetica, sans-serif;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 100;
 }
 
 .display-buttons {
   position: absolute;
-  right: 30px;
-}
-
-.filter-button {
-  width: 142px;
-  height: 42px;
-  color: WHITE;
-  background-color: #215184;
-  text-align: center;
-  margin-right: 8px;
+  right: 22px;
 }
 
 .sort-button {
@@ -106,9 +97,33 @@
   background-color: #215184;
   text-align: center;
   margin-right: 13px;
+  border: none;
 }
 
 #arrow-icon {
   padding-top: 14px;
+}
+
+#button-content {
+  width: 142px;
+  height: 42px;
+  color: WHITE;
+  background-color: #215184;
+  text-align: center;
+  margin-right: 13px;
+  border: none;
+  font-family: "Brandon Grotesque", Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  position: absolute;
+  right: 150px;
+  border-radius: 0px;
+}
+
+#button-content:focus {
+  display: none;
+}
+
+.sort-button:focus {
+  display: none;
 }
 /*# sourceMappingURL=DisplayButtons.css.map */

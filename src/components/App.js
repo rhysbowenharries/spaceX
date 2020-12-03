@@ -6,6 +6,7 @@ import LaunchList from './launchList/LaunchList'
 import launchImage from '../assets/img/launch-home.png'
 
 import './App.scss'
+
 const App = () => {
   return (
     <>
