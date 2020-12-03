@@ -10,6 +10,7 @@ class LaunchList extends React.Component {
     this.props.fetchLaunches()
   }
 
+
   dateHelper(unixTimestamp) {
     const milliseconds = unixTimestamp * 1000
     const nth = function (d) {

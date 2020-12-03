@@ -1,7 +1,7 @@
 import React from 'react'
 import { Dropdown, DropdownButton } from 'react-bootstrap'
 import { connect } from 'react-redux'
-import { fetchLaunchesByYear } from '../../actions'
+import { fetchLaunchesByYear, fetchLaunchesAndArrange } from '../../actions'
 
 import sortIcon from '../../assets/icon/sort.png'
 
@@ -13,6 +13,9 @@ class DisplayButtons extends React.Component {
     this.props.fetchLaunchesByYear(value)
   }
 
+  fetchLaunchesAndArrange = () => {
+    this.props.fetchLaunchesAndArrange()
+  }
 
   render() {
     return (
@@ -39,7 +42,7 @@ class DisplayButtons extends React.Component {
           <Dropdown.Item eventKey="2019">2019</Dropdown.Item>
           <Dropdown.Item eventKey="2020">2020</Dropdown.Item>
         </DropdownButton>
-        <button className="sort-button">
+        <button className="sort-button" onClick={this.fetchLaunchesAndArrange}>
           <p className="button-content"> Sort Descending </p>
           <img src={sortIcon} alt="up and down Icons" className="icon" />
         </button>
@@ -49,4 +52,4 @@ class DisplayButtons extends React.Component {
   }
 }
 
-export default connect(null, { fetchLaunchesByYear })(DisplayButtons)
+export default connect(null, { fetchLaunchesByYear, fetchLaunchesAndArrange })(DisplayButtons)

@@ -69,7 +69,7 @@
 }
 
 .icon {
-  padding: 10px 0px;
+  padding: 13px 0px;
   margin-right: 11px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -91,7 +91,7 @@
 }
 
 .sort-button {
-  width: 142px;
+  width: 153px;
   height: 42px;
   color: WHITE;
   background-color: #215184;
@@ -115,7 +115,7 @@
   font-family: "Brandon Grotesque", Arial, Helvetica, sans-serif;
   font-weight: 100;
   position: absolute;
-  right: 150px;
+  right: 162px;
   border-radius: 0px;
 }
 

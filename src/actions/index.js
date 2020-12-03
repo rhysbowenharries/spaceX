@@ -11,3 +11,9 @@ export const fetchLaunchesByYear = (value) => async dispatch => {
 
   dispatch({ type: "FETCH_LAUNCHES_BY_YEAR", payload: response.data });
 };
+
+export const fetchLaunchesAndArrange = () => async dispatch => {
+  const response = await spaceXData.get(`/launches`);
+
+  dispatch({ type: "FETCH_LAUNCHES_AND_ARRANGE", payload: response.data.reverse() });
+};
