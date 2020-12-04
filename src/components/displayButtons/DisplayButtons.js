@@ -27,7 +27,7 @@ class DisplayButtons extends React.Component {
           onSelect={(key) => this.fetchLaunchesByYear(key)}
         >
           <Dropdown.Item eventKey="2006">2006</Dropdown.Item>
-          <Dropdown.Item eventKey="2007" >2007</Dropdown.Item>
+          <Dropdown.Item eventKey="2007">2007</Dropdown.Item>
           <Dropdown.Item eventKey="2008">2008</Dropdown.Item>
           <Dropdown.Item eventKey="2009">2009</Dropdown.Item>
           <Dropdown.Item eventKey="2010">2010</Dropdown.Item>
